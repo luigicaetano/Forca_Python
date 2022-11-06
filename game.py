@@ -186,7 +186,7 @@ while True:
         for indice in indice_letras:
             charspuro[indice] = letra_tentada
     if len(letras_erradas) == 10:
-        print(f"Game over\n{bonecos[5]}")
+        print(f"Game over. A palavra era {palavra}.\n{bonecos[5]}")
         resposta = jogar_novamente()
         if resposta == "não":
             break
